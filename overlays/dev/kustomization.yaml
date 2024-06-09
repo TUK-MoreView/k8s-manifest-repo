@@ -5,9 +5,6 @@ kind: Kustomization
 images:
 - name: 058264288247.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
   newName: 058264288247.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend
-  newTag: abcdefg
-- name: 058264288247.dkr.ecr.ap-northeast-2.amazonaws.com/demo-moreview-backend
-  newName: 058264288247.dkr.ecr.ap-northeast-2.amazonaws.com/demo-moreview-backend
   newTag: dedf49af
 
 resources:

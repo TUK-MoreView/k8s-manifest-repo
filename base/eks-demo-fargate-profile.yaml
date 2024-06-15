@@ -10,3 +10,8 @@ fargateProfiles:
       - namespace: default
         labels:
           app: frontend-fargate
+  - name: backend-fargate-profile
+    selectors:
+      - namespace: default
+        labels:
+          app: demo-moreview-backend

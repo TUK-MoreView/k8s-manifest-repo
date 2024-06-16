@@ -7,7 +7,7 @@ metadata:
     alb.ingress.kubernetes.io/healthcheck-path: "/contents/aws"
 spec:
   selector:
-    app: demo-moreview-backend
+    app: backend-fargate
   type: NodePort
   ports:
     - port: 8080 # 서비스가 생성할 포트  

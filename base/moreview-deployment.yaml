@@ -8,11 +8,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo-moreview-backend
+      app: backend-fargate
   template:
     metadata:
       labels:
-        app: demo-moreview-backend
+        app: backend-fargate
     spec:
       containers:
         - name: demo-moreview-backend
